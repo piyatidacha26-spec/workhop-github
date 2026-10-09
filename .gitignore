@@ -1,0 +1,11 @@
+# .gitignore
+
+# ซ่อนไฟล์ตั้งค่าที่มีรหัสผ่าน
+.env
+
+# ซ่อนโฟลเดอร์ Library ที่โหลดมาจาก Composer (เพราะคนอื่นสามารถรัน composer install เองได้)
+/vendor/
+
+# ซ่อนไฟล์ของระบบปฏิบัติการ
+.DS_Store
+Thumbs.db
